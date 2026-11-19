@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta
+		content="Portfolio d'ABOUTOU OUATTARA - Etudiant en Licence Pro CRRW (Conception, Rédaction et Réalisation Web) Parcous Intégration et Web Design"
+		name="description">
+	<meta content="ABOUTOU OUATTARA" name="author">
+	<meta name="description" content="Portfolio d'Aboutou Ouattara">
+	<title>Aboutou Ouattara | Portfolio</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="./js/script.js" defer></script>
+</head>
+
+<body>
+	<nav class="menu" aria-label="Navigation principale">
+		<img src="./images/Portrait professionnel en costume noir.png" alt="photo professionnel" class="profil">
+		<p class="menu__name">Aboutou<br>Ouattara</p>
+		<ul>
+			<li><a href="#accueil">Accueil</a></li>
+			<li><a href="#apropos">À propos</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#certifications">Certifications</a></li>
+			<li><a href="#competences">Compétences</a></li>
+			<li><a href="#formations">Formations</a></li>
+			<li><a href="#experiences">Expériences</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<section id="accueil" class="hero">
+			<h1>Je conçois des sites clairs et utiles.</h1>
+			<p>Je suis étudiant en BTS SIO (Service Informatiques aux Organisations) option SLAM(Solutions Logiciels et
+				Applications Métiers) Lycée Rabelais Saint-Brieuc(22).</p>
+			<a class="button" href="#experiences">Voir mes expériences</a>
+		</section>
+
+		<section id="apropos">
+			<h2>À propos</h2>
+			<p>Je suis étudiant en Licence Pro CRRW (Conception,Rédaction et Réalisation Web) Parcours Intégration et
+				Web Design.</p>
+		</section>
+		<section id="portfolio">
+			<a href="portfolio.html">
+				<h2>Portfolio</h2>
+			</a>
+			<div class="filters">
+				<button type="button" data-filter="all" class="is-active">Tous</button>
+				<button type="button" data-filter="personnels">Projets personnels</button>
+				<button type="button" data-filter="professionnels">Projets professionnels</button>
+			</div>
+
+			<div class="projects">
+				<figure class="project" data-category="professionnels">
+					<a href="projets/atlantik-app1.png" class="img-pop-up">
+						<img src="projets/atlantik-app1.png" alt="Application Atlantik, page d'accueil">
+					</a>
+					<figcaption>
+						<h4>Application Atlantik</h4>
+						<p>Page d'accueil</p>
+					</figcaption>
+				</figure>
+				<figure class="project" data-category="professionnels">
+					<a href="projets/bibliodrive1.png" class="img-pop-up">
+						<img src="projets/bibliodrive1.png" alt="Application Bibliodrive">
+					</a>
+					<figcaption>
+						<h4>Application Bibliodrive</h4>
+						<p>Page d'accueil</p>
+					</figcaption>
+				</figure>
+				<figure class="project" data-category="professionnels">
+					<a href="projets/javaprojetAsso1.jpg">
+						<img src="projets/javaprojetAsso1.jpg" alt="Application Java">
+					</a>
+					<figcaption>
+						<h4>Application Autisme</h4>
+						<p>Page d'accueil</p>
+					</figcaption>
+				</figure>
+				<figure class="project" data-category="professionnels">
+					<a href="projets/symfony1.jpg">
+						<img src="projets/symfony1.jpg" alt="Application symfony">
+					</a>
+					<figcaption>
+						<h4>Application Port de Pontrieux</h4>
+						<p>Page d'accueil</p>
+					</figcaption>
+				</figure>
+				<figure class="project" data-category="professionnels">
+					<a href="projets/javaprojetGym1.jpg">
+						<img src="projets/javaprojetGym1.jpg" alt="Application Java">
+					</a>
+					<figcaption>
+						<h4>Application Salle de Gym</h4>
+						<p>Page d'accueil</p>
+					</figcaption>
+				</figure>
+				<figure class="project" data-category="personnels">
+					<a href="projets/maquette.png">
+						<img src="projets/maquette.png" alt="Application CodeIgniter4">
+					</a>
+					<figcaption>
+						<h4>Application Pôle de Santé</h4>
+						<p>Vitrine</p>
+					</figcaption>
+				</figure>
+			</div>
+		</section>
+		<section id="certifications">
+			<h2>Certifications</h2>
+			<div class="mes-certifs">
+				<figure>
+					<a href="certifications/attestationsecnum_page-0001.jpg">
+						<img src="certifications/attestationsecnum_page-0001.jpg" alt="Certifications MOOC">
+					</a>
+				</figure>
+				<figure>
+					<a href="certifications/AttestationSensCyber.jpg">
+						<img src="certifications/AttestationSensCyber.jpg" alt="Attestation sens cyber">
+					</a>
+				</figure>
+			</div>
+		</section>
+		</section>
+		<section id="competences">
+			<h2>Compétences</h2>
+			<ul class="tags">
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>Java</li>
+				<li>Git</li>
+				<li>Responsive design</li>
+				<li>PHP</li>
+				<li>Python</li>
+				<li>TypeScript</li>
+			</ul>
+		</section>
+
+		<section id="formations">
+			<h2>Formations</h2>
+			<ol class="timeline">
+				<li>
+					<h3>Licence pro CRRW (Conception Rédaction et Réalisation Web) Parcours Intégration et Web Design
+					</h3>
+					<p class="meta">URCA - Charleville-Mézières, sept. 2026 - juil. 2027</p>
+					<p>Une phrase sur le contenu de la formation.</p>
+				</li>
+				<li>
+					<h3>Classe préparatoire ATS (Adaptation Technicien Supérieur)</h3>
+					<p class="meta">Lycée Félix le Dantec - Lannion, sept. 2025 - juin 2026</p>
+					<p>Une phrase sur le contenu de la formation.</p>
+				</li>
+				<li>
+					<h3>BTS SIO (Services Informatique aux Organisations) option SLAM (Solution Logiciels Applications
+						et Métiers)</h3>
+					<p class="meta">Lycée François Rabelais - Saint-Brieuc, sept.2023 - mai 2025</p>
+				</li>
+				<li>
+					<h3>BUT Réseaux & Télécoms</h3>
+					<p class="meta">Universite de Rennes 1 - Lannion, sept.2022 - juin 2023</p>
+				</li>
+				<li>
+					<h3>Bac STI2D (Sciences Technologies Industriells et Développement Durable) option EE (Energies
+						environnementales)</h3>
+					<p class="meta">Lycée Félix le Dantec - Lannion, sept.2019 - juil.2022</p>
+				</li>
+			</ol>
+		</section>
+
+		<section id="experiences">
+			<h2>Expériences</h2>
+			<ol class="timeline">
+				<li>
+					<h3>Réalisation d'une FAQ</h3>
+					<p class="meta">PRESCOM, jan.2025 - fév.2025</p>
+					<p>Projet R&D Web/App : application FAQ centralisant les réponses aux questions récurrentes pour
+						faire gagner du temps aux utilisateurs.</p>
+					<ol class="timeline">
+						<li>Récupération de données de services externes via SOAP</li>
+						<li>Interface en Angular Material, back-end en Python, état géré par les services Angular</li>
+						<li>Connexion front/back par appels HTTP ; tests d'intégration et tests utilisateurs auprès d'un
+							groupe pilote</li>
+					</ol>
+				</li>
+				<li>
+					<h3>Automatisation et tests de non-régression sur IHM</h3>
+					<p class="meta">PRESCOM , juin 2024 - juil.2024</p>
+					<p>Automatisation de tests web (télécommunications) : installation automatisée d'OS et de logiciels
+						pour exécuter des tests.</p>
+					<ol class="timeline">
+						<li>Environnement de test sur Windows 10 (Python, Robot Framework, RIDE, Node.js, Java)</li>
+						<li>Tests de non-régression automatisés sur 3 IHM web : configurateur, Omnidispatch, supervision
+							(radio PTT)</li>
+					</ol>
+				</li>
+			</ol>
+		</section>
+		<section id="contact">
+			<a href="contact.html" class="contacter">Me contacter</a>
+		</section>
+	</main>
+</body>
+
+</html>
